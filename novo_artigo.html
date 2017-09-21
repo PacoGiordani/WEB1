@@ -15,8 +15,30 @@
     <main>
       <form name="criar-artigo">
         <div>
-          <label for="meu-nome"><b>Nome</b></label>
-          <input id="meu-nome" type="text" placeholder="Digite seu nome" required/>
+          <label for="art-titulo"><b>Título</b></label>
+          <input id="art-titulo" type="text" placeholder="Título do artigo" required/>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="desc-artigo">Descrição do artigo: </label>
+          <input id="desc-artigo" type="text" placeholder="Digite a descrição do artigo" required/>
+          <textarea id="desc-artigo" maxlength="140" placeholder="Digite a descrição do artigo"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="cor-titulo"><b>Cor do título</b></label>
+          <select>
+        		<option selected>Selecione uma cor</option>
+        		<option>Azul</option>
+        		<option>Amarelo</option>
+        		<option>Vermelho</option>
+        		<option>Laranja</option>
+            <option>Marrom</option>
+        	</select>
         </div>
 
       </form>
